@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14F27" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Collection" representedClassName="WaterReminder.Collection" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Notifications" representedClassName="WaterReminder.Notifications" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="label" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sound" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Settings" representedClassName="WaterReminder.Settings" syncable="YES">
+        <attribute name="activity" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="age" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="amount" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="gender" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="goal" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pro" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="recent" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="reminders" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="sound" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="stamp" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="units" optional="YES" attributeType="Integer 16" syncable="YES"/>
+        <attribute name="weight" optional="YES" attributeType="Float" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Statistics" representedClassName="WaterReminder.Statistics" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Collection" positionX="-18" positionY="108" width="128" height="75"/>
+        <element name="Notifications" positionX="-36" positionY="99" width="128" height="90"/>
+        <element name="Settings" positionX="-63" positionY="-18" width="128" height="240"/>
+        <element name="Statistics" positionX="-54" positionY="90" width="128" height="75"/>
+    </elements>
+</model>

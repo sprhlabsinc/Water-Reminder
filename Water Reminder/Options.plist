@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>Settings</string>
+		<string>General settings</string>
+		<array>
+			<array>
+				<string>Daily Goal</string>
+				<string></string>
+			</array>
+			<array>
+				<string>Units</string>
+				<string>Units of measurement</string>
+				<array>
+					<array>
+						<string>Metric (ml, kg)</string>
+						<string></string>
+					</array>
+					<array>
+						<string>U.S. (oz, lbs)</string>
+						<string></string>
+					</array>
+				</array>
+			</array>
+			<array>
+				<string>Notifications</string>
+				<string></string>
+			</array>
+			<array>
+				<string>Notification Sound</string>
+				<string></string>
+				<array>
+					<array>
+						<string>Over The Rainbow</string>
+						<string></string>
+					</array>
+					<array>
+						<string>Mysterious Life</string>
+						<string></string>
+					</array>
+					<array>
+						<string>Black Pearl</string>
+						<string></string>
+					</array>
+					<array>
+						<string>Foxy&apos;s Ride</string>
+						<string></string>
+					</array>
+					<array>
+						<string>Chasing Visions</string>
+						<string></string>
+					</array>
+					<array>
+						<string>Twisted Town</string>
+						<string></string>
+					</array>
+					<array>
+						<string>The Motion</string>
+						<string></string>
+					</array>
+				</array>
+			</array>
+		</array>
+	</array>
+	<array>
+		<string>Collection</string>
+		<string>Manage your drinking sources</string>
+		<array/>
+	</array>
+	<array>
+		<string>Calculator</string>
+		<string>Recommended daily water intake</string>
+		<array>
+			<array>
+				<string>Gender</string>
+				<string></string>
+				<array>
+					<array>
+						<string>Male</string>
+						<string></string>
+					</array>
+					<array>
+						<string>Female</string>
+						<string></string>
+					</array>
+				</array>
+			</array>
+			<array>
+				<string>Age</string>
+				<string></string>
+			</array>
+			<array>
+				<string>Weight</string>
+				<string></string>
+			</array>
+			<array>
+				<string>Recommended</string>
+				<string></string>
+			</array>
+		</array>
+	</array>
+	<array>
+		<string>Notifications</string>
+		<string>Create and manage notifications</string>
+		<array>
+			<array>
+				<string>Enabled</string>
+				<string></string>
+			</array>
+			<array>
+				<string>Sound</string>
+				<string></string>
+				<array>
+					<array>
+						<string>Sound 1</string>
+						<string></string>
+					</array>
+					<array>
+						<string>Sound 2</string>
+						<string></string>
+					</array>
+					<array>
+						<string>Sound 3</string>
+						<string></string>
+					</array>
+					<array>
+						<string>Sound 4</string>
+						<string></string>
+					</array>
+				</array>
+			</array>
+			<array>
+				<string>Reminders</string>
+				<string>No reminders yet</string>
+				<array/>
+			</array>
+		</array>
+	</array>
+	<array>
+		<string>Upgrades</string>
+		<string>Available upgrades</string>
+		<array>
+			<array>
+				<string>Ad-Free Upgrade ($1.99)</string>
+				<string>Remove all ads from the application</string>
+			</array>
+			<array>
+				<string>Restore Purchases</string>
+				<string>Restore your in-app purchases</string>
+			</array>
+		</array>
+	</array>
+	<array>
+		<string>Feedback</string>
+		<string>Contact developers</string>
+		<array>
+			<array>
+				<string>Send An Email To Support</string>
+				<string>Have a suggestion or found a bug?</string>
+			</array>
+			<array>
+				<string>Rate %@</string>
+				<string>Please give us your feedback</string>
+			</array>
+			<array>
+				<string>Facebook</string>
+				<string>Like us on Facebook</string>
+			</array>
+			<array>
+				<string>Twitter</string>
+				<string>Follow us on Twitter</string>
+			</array>
+		</array>
+	</array>
+</array>
+</plist>

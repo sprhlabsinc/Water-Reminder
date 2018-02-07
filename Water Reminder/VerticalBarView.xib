@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SUVerticalBar" customModule="WaterReminder" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f5b-Po-Ysg">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="D0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="33t-h8-lbq">
+                            <rect key="frame" x="0.0" y="544" width="600" height="28"/>
+                            <animations/>
+                            <color key="backgroundColor" red="0.62426853179931641" green="0.75260359048843384" blue="0.33889442682266235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="28" id="Gta-Fj-j6c"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vzK-1l-ueH" userLabel="Marker View">
+                            <rect key="frame" x="0.0" y="598" width="600" height="2"/>
+                            <animations/>
+                            <color key="backgroundColor" red="1" green="0.47185551950273241" blue="0.87473591071526968" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="2" id="ELJ-80-g6l"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="D1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="3MU-so-vfA">
+                            <rect key="frame" x="0.0" y="572" width="600" height="26"/>
+                            <animations/>
+                            <color key="backgroundColor" red="0.90588235289999997" green="0.35294117650000001" blue="0.35294117650000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="26" id="pEQ-QD-cYF"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jzD-tM-lGw" userLabel="Indicator View">
+                            <rect key="frame" x="0.0" y="344" width="600" height="200"/>
+                            <animations/>
+                            <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="200" id="fjI-lL-0Mv"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" red="0.94699865107913672" green="0.57891187050359716" blue="0.096124662769784167" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="3MU-so-vfA" firstAttribute="leading" secondItem="f5b-Po-Ysg" secondAttribute="leading" id="1an-OD-lQw"/>
+                        <constraint firstItem="vzK-1l-ueH" firstAttribute="bottom" secondItem="f5b-Po-Ysg" secondAttribute="bottom" id="Bcz-c2-Jbi"/>
+                        <constraint firstItem="jzD-tM-lGw" firstAttribute="leading" secondItem="f5b-Po-Ysg" secondAttribute="leading" id="Ed7-vh-MoH"/>
+                        <constraint firstItem="33t-h8-lbq" firstAttribute="leading" secondItem="f5b-Po-Ysg" secondAttribute="leading" id="HZu-gV-NTE"/>
+                        <constraint firstAttribute="trailing" secondItem="33t-h8-lbq" secondAttribute="trailing" id="Kep-9W-h7c"/>
+                        <constraint firstAttribute="trailing" secondItem="vzK-1l-ueH" secondAttribute="trailing" id="L9W-SN-Wa5"/>
+                        <constraint firstAttribute="trailing" secondItem="jzD-tM-lGw" secondAttribute="trailing" id="WLY-EL-63i"/>
+                        <constraint firstAttribute="trailing" secondItem="3MU-so-vfA" secondAttribute="trailing" id="d78-JD-hje"/>
+                        <constraint firstItem="vzK-1l-ueH" firstAttribute="leading" secondItem="f5b-Po-Ysg" secondAttribute="leading" id="fHD-jV-9vf"/>
+                        <constraint firstItem="3MU-so-vfA" firstAttribute="bottom" secondItem="vzK-1l-ueH" secondAttribute="top" id="lbp-KV-0iB"/>
+                        <constraint firstItem="3MU-so-vfA" firstAttribute="top" secondItem="33t-h8-lbq" secondAttribute="bottom" id="sZx-8R-7ZX"/>
+                        <constraint firstItem="33t-h8-lbq" firstAttribute="top" secondItem="jzD-tM-lGw" secondAttribute="bottom" id="yNa-IO-i3z"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="f5b-Po-Ysg" secondAttribute="trailing" id="2k5-Wm-0Pk"/>
+                <constraint firstItem="f5b-Po-Ysg" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="PBo-bb-g2V"/>
+                <constraint firstItem="f5b-Po-Ysg" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="YTa-2X-OKL"/>
+                <constraint firstAttribute="bottom" secondItem="f5b-Po-Ysg" secondAttribute="bottom" id="y2f-Yw-AeS"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="backgroundView" destination="f5b-Po-Ysg" id="pzz-Ow-hEf"/>
+                <outlet property="data0Label" destination="33t-h8-lbq" id="CZ5-uz-XZa"/>
+                <outlet property="data0LabelHeight" destination="Gta-Fj-j6c" id="bEz-dX-raF"/>
+                <outlet property="data1Label" destination="3MU-so-vfA" id="fPe-eg-bCM"/>
+                <outlet property="data1LabelHeight" destination="pEQ-QD-cYF" id="seM-bq-6G0"/>
+                <outlet property="indicatorView" destination="jzD-tM-lGw" id="tPS-rh-wO1"/>
+                <outlet property="indicatorViewHeight" destination="fjI-lL-0Mv" id="xVu-rJ-lqf"/>
+                <outlet property="markerView" destination="vzK-1l-ueH" id="BQJ-6r-ARl"/>
+            </connections>
+            <point key="canvasLocation" x="-1911" y="383"/>
+        </view>
+    </objects>
+</document>

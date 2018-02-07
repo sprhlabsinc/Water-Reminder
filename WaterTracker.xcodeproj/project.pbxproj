@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AA1A8F31E91D72800A38C8D /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28C74DCA1B49A54A00C37D90 /* GoogleMobileAds.framework */; };
+		0AA1A8F61E91EE8E00A38C8D /* Chartboost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA1A8F51E91EE8E00A38C8D /* Chartboost.framework */; };
+		0AA1A8F81E91EFC500A38C8D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA1A8F71E91EFC500A38C8D /* StoreKit.framework */; };
+		0AA1A8FC1E91EFD800A38C8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA1A8FB1E91EFD800A38C8D /* Foundation.framework */; };
+		0AA1A8FE1E91EFE000A38C8D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA1A8FD1E91EFE000A38C8D /* CoreGraphics.framework */; };
+		0AA1A9001E91EFE700A38C8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA1A8FF1E91EFE700A38C8D /* UIKit.framework */; };
+		28003ABD1B8A14590067749F /* sound_00.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 28003AB61B8A14590067749F /* sound_00.mp3 */; };
+		28003ABE1B8A14590067749F /* sound_00.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 28003AB61B8A14590067749F /* sound_00.mp3 */; };
+		28003ABF1B8A14590067749F /* sound_01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 28003AB71B8A14590067749F /* sound_01.mp3 */; };
+		28003AC01B8A14590067749F /* sound_01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 28003AB71B8A14590067749F /* sound_01.mp3 */; };
+		28003AC11B8A14590067749F /* sound_02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 28003AB81B8A14590067749F /* sound_02.mp3 */; };
+		28003AC21B8A14590067749F /* sound_02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 28003AB81B8A14590067749F /* sound_02.mp3 */; };
+		28003AC31B8A14590067749F /* sound_03.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 28003AB91B8A14590067749F /* sound_03.mp3 */; };
+		28003AC41B8A14590067749F /* sound_03.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 28003AB91B8A14590067749F /* sound_03.mp3 */; };
+		28003AC51B8A14590067749F /* sound_04.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 28003ABA1B8A14590067749F /* sound_04.mp3 */; };
+		28003AC61B8A14590067749F /* sound_04.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 28003ABA1B8A14590067749F /* sound_04.mp3 */; };
+		28003AC71B8A14590067749F /* sound_05.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 28003ABB1B8A14590067749F /* sound_05.mp3 */; };
+		28003AC81B8A14590067749F /* sound_05.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 28003ABB1B8A14590067749F /* sound_05.mp3 */; };
+		28003AC91B8A14590067749F /* sound_06.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 28003ABC1B8A14590067749F /* sound_06.mp3 */; };
+		28003ACA1B8A14590067749F /* sound_06.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 28003ABC1B8A14590067749F /* sound_06.mp3 */; };
+		28003AD61B8A254F0067749F /* WaterReminder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28003AD41B8A254F0067749F /* WaterReminder.xcdatamodeld */; };
+		28003AD71B8A254F0067749F /* WaterReminder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28003AD41B8A254F0067749F /* WaterReminder.xcdatamodeld */; };
+		2802E8A41BDD5CEC004A2EF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280A91AF1A53075600BEB38A /* Main.storyboard */; };
+		2802E8A51BDD5CF2004A2EF6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280A91B41A53075600BEB38A /* LaunchScreen.xib */; };
+		280A91A91A53075600BEB38A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280A91A81A53075600BEB38A /* AppDelegate.swift */; };
+		280A91AE1A53075600BEB38A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280A91AD1A53075600BEB38A /* MainViewController.swift */; };
+		2815E7E41AC3677F009655C9 /* WeekGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2815E7E31AC3677F009655C9 /* WeekGraph.swift */; };
+		2815E7E61AC38C5D009655C9 /* VerticalBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2815E7E51AC38C5D009655C9 /* VerticalBarView.xib */; };
+		2815E7E81AC486C7009655C9 /* ManagedObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2815E7E71AC486C7009655C9 /* ManagedObjects.swift */; };
+		28222CC31BDEC966003B4FD1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28222CC21BDEC966003B4FD1 /* Images.xcassets */; };
+		28222CC41BDEC966003B4FD1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28222CC21BDEC966003B4FD1 /* Images.xcassets */; };
+		28460AC21ACF6AD100F8E126 /* Options.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28460AC11ACF6AD100F8E126 /* Options.plist */; };
+		28460AC41AD17E3D00F8E126 /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28460AC31AD17E3D00F8E126 /* FirstTableViewController.swift */; };
+		285B357D1AC0FBF30015E868 /* Conf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285B357C1AC0FBF30015E868 /* Conf.swift */; };
+		285B357F1AC0FC030015E868 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285B357E1AC0FC030015E868 /* Tools.swift */; };
+		285B35811AC105600015E868 /* CircleBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285B35801AC105600015E868 /* CircleBar.swift */; };
+		2890C86A1AD31E0E0043803D /* SecondTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2890C8691AD31E0E0043803D /* SecondTableViewController.swift */; };
+		28AA7DCD1B4591210011D5FD /* List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28AA7DCC1B4591210011D5FD /* List.plist */; };
+		28BF6CF91ACB1900009FECE0 /* MenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28BF6CF81ACB1900009FECE0 /* MenuView.xib */; };
+		28BF6CFB1ACB1D42009FECE0 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BF6CFA1ACB1D42009FECE0 /* MenuView.swift */; };
+		28C74DC71B49A22E00C37D90 /* IAPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C74DC61B49A22E00C37D90 /* IAPViewController.swift */; };
+		28C74DC91B49A52400C37D90 /* ADViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C74DC81B49A52400C37D90 /* ADViewController.swift */; };
+		28D2B7B21B4ADA0600CE1D93 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280A91AD1A53075600BEB38A /* MainViewController.swift */; };
+		28D2B7B41B4ADA0600CE1D93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280A91A81A53075600BEB38A /* AppDelegate.swift */; };
+		28D2B7B51B4ADA0600CE1D93 /* Conf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285B357C1AC0FBF30015E868 /* Conf.swift */; };
+		28D2B7B61B4ADA0600CE1D93 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BF6CFA1ACB1D42009FECE0 /* MenuView.swift */; };
+		28D2B7B81B4ADA0600CE1D93 /* WeekGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2815E7E31AC3677F009655C9 /* WeekGraph.swift */; };
+		28D2B7B91B4ADA0600CE1D93 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285B357E1AC0FC030015E868 /* Tools.swift */; };
+		28D2B7BA1B4ADA0600CE1D93 /* ManagedObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2815E7E71AC486C7009655C9 /* ManagedObjects.swift */; };
+		28D2B7BB1B4ADA0600CE1D93 /* CircleBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285B35801AC105600015E868 /* CircleBar.swift */; };
+		28D2B7BC1B4ADA0600CE1D93 /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DFC84C1AD5D53F008EBB90 /* KeyboardView.swift */; };
+		28D2B7BD1B4ADA0600CE1D93 /* SecondTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2890C8691AD31E0E0043803D /* SecondTableViewController.swift */; };
+		28D2B7BE1B4ADA0600CE1D93 /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28460AC31AD17E3D00F8E126 /* FirstTableViewController.swift */; };
+		28D2B7C41B4ADA0600CE1D93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280A91AF1A53075600BEB38A /* Main.storyboard */; };
+		28D2B7C51B4ADA0600CE1D93 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280A91B41A53075600BEB38A /* LaunchScreen.xib */; };
+		28D2B7CC1B4ADA0600CE1D93 /* List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28AA7DCC1B4591210011D5FD /* List.plist */; };
+		28D2B7CD1B4ADA0600CE1D93 /* MenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28BF6CF81ACB1900009FECE0 /* MenuView.xib */; };
+		28D2B7CE1B4ADA0600CE1D93 /* VerticalBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2815E7E51AC38C5D009655C9 /* VerticalBarView.xib */; };
+		28D2B7CF1B4ADA0600CE1D93 /* Options.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28460AC11ACF6AD100F8E126 /* Options.plist */; };
+		28DFC84D1AD5D53F008EBB90 /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DFC84C1AD5D53F008EBB90 /* KeyboardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2815E7E21AC3306A009655C9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28D2B7D01B4ADA0600CE1D93 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0AA1A8F51E91EE8E00A38C8D /* Chartboost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Chartboost.framework; sourceTree = "<group>"; };
+		0AA1A8F71E91EFC500A38C8D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		0AA1A8F91E91EFD100A38C8D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0AA1A8FB1E91EFD800A38C8D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0AA1A8FD1E91EFE000A38C8D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0AA1A8FF1E91EFE700A38C8D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0AA1A9011E91F50000A38C8D /* Bridge-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridge-Header.h"; sourceTree = "<group>"; };
+		28003AB61B8A14590067749F /* sound_00.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound_00.mp3; sourceTree = "<group>"; };
+		28003AB71B8A14590067749F /* sound_01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound_01.mp3; sourceTree = "<group>"; };
+		28003AB81B8A14590067749F /* sound_02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound_02.mp3; sourceTree = "<group>"; };
+		28003AB91B8A14590067749F /* sound_03.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound_03.mp3; sourceTree = "<group>"; };
+		28003ABA1B8A14590067749F /* sound_04.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound_04.mp3; sourceTree = "<group>"; };
+		28003ABB1B8A14590067749F /* sound_05.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound_05.mp3; sourceTree = "<group>"; };
+		28003ABC1B8A14590067749F /* sound_06.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound_06.mp3; sourceTree = "<group>"; };
+		28003ACB1B8A14DD0067749F /* Premium-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Premium-Info.plist"; sourceTree = "<group>"; };
+		28003AD51B8A254F0067749F /* WaterReminder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WaterReminder.xcdatamodel; sourceTree = "<group>"; };
+		280A91A31A53075600BEB38A /* WaterTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		280A91A71A53075600BEB38A /* Free-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Free-Info.plist"; sourceTree = "<group>"; };
+		280A91A81A53075600BEB38A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		280A91AD1A53075600BEB38A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		280A91B01A53075600BEB38A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		280A91B51A53075600BEB38A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2815E7E31AC3677F009655C9 /* WeekGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekGraph.swift; sourceTree = "<group>"; };
+		2815E7E51AC38C5D009655C9 /* VerticalBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VerticalBarView.xib; sourceTree = "<group>"; };
+		2815E7E71AC486C7009655C9 /* ManagedObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagedObjects.swift; sourceTree = "<group>"; };
+		28222CC21BDEC966003B4FD1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		28460AC11ACF6AD100F8E126 /* Options.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Options.plist; sourceTree = "<group>"; };
+		28460AC31AD17E3D00F8E126 /* FirstTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
+		285B357C1AC0FBF30015E868 /* Conf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conf.swift; sourceTree = "<group>"; };
+		285B357E1AC0FC030015E868 /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		285B35801AC105600015E868 /* CircleBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleBar.swift; sourceTree = "<group>"; };
+		2890C8691AD31E0E0043803D /* SecondTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTableViewController.swift; sourceTree = "<group>"; };
+		28AA7DCC1B4591210011D5FD /* List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = List.plist; sourceTree = "<group>"; };
+		28BF6CF81ACB1900009FECE0 /* MenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuView.xib; sourceTree = "<group>"; };
+		28BF6CFA1ACB1D42009FECE0 /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		28C74DC61B49A22E00C37D90 /* IAPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAPViewController.swift; sourceTree = "<group>"; };
+		28C74DC81B49A52400C37D90 /* ADViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADViewController.swift; sourceTree = "<group>"; };
+		28C74DCA1B49A54A00C37D90 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = ../GoogleMobileAds.framework; sourceTree = "<group>"; };
+		28D2B7D41B4ADA0600CE1D93 /* WaterTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28DFC84C1AD5D53F008EBB90 /* KeyboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		280A91A01A53075600BEB38A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA1A9001E91EFE700A38C8D /* UIKit.framework in Frameworks */,
+				0AA1A8FE1E91EFE000A38C8D /* CoreGraphics.framework in Frameworks */,
+				0AA1A8FC1E91EFD800A38C8D /* Foundation.framework in Frameworks */,
+				0AA1A8F81E91EFC500A38C8D /* StoreKit.framework in Frameworks */,
+				0AA1A8F61E91EE8E00A38C8D /* Chartboost.framework in Frameworks */,
+				0AA1A8F31E91D72800A38C8D /* GoogleMobileAds.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28D2B7C01B4ADA0600CE1D93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AA1A8F41E91EE8D00A38C8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AA1A8FF1E91EFE700A38C8D /* UIKit.framework */,
+				0AA1A8FD1E91EFE000A38C8D /* CoreGraphics.framework */,
+				0AA1A8FB1E91EFD800A38C8D /* Foundation.framework */,
+				0AA1A8F91E91EFD100A38C8D /* AVFoundation.framework */,
+				0AA1A8F71E91EFC500A38C8D /* StoreKit.framework */,
+				0AA1A8F51E91EE8E00A38C8D /* Chartboost.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		280A919A1A53075600BEB38A = {
+			isa = PBXGroup;
+			children = (
+				280A91A51A53075600BEB38A /* WaterTracker */,
+				280A91A41A53075600BEB38A /* Products */,
+				0AA1A8F41E91EE8D00A38C8D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		280A91A41A53075600BEB38A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				280A91A31A53075600BEB38A /* WaterTracker.app */,
+				28D2B7D41B4ADA0600CE1D93 /* WaterTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		280A91A51A53075600BEB38A /* WaterTracker */ = {
+			isa = PBXGroup;
+			children = (
+				285B357C1AC0FBF30015E868 /* Conf.swift */,
+				285B357E1AC0FC030015E868 /* Tools.swift */,
+				280A91A81A53075600BEB38A /* AppDelegate.swift */,
+				280A91AD1A53075600BEB38A /* MainViewController.swift */,
+				28BF6CFA1ACB1D42009FECE0 /* MenuView.swift */,
+				28460AC31AD17E3D00F8E126 /* FirstTableViewController.swift */,
+				2890C8691AD31E0E0043803D /* SecondTableViewController.swift */,
+				28DFC84C1AD5D53F008EBB90 /* KeyboardView.swift */,
+				28C74DC61B49A22E00C37D90 /* IAPViewController.swift */,
+				28C74DC81B49A52400C37D90 /* ADViewController.swift */,
+				285B35801AC105600015E868 /* CircleBar.swift */,
+				2815E7E31AC3677F009655C9 /* WeekGraph.swift */,
+				2815E7E71AC486C7009655C9 /* ManagedObjects.swift */,
+				28222CC21BDEC966003B4FD1 /* Images.xcassets */,
+				280A91AF1A53075600BEB38A /* Main.storyboard */,
+				2815E7E51AC38C5D009655C9 /* VerticalBarView.xib */,
+				280A91B41A53075600BEB38A /* LaunchScreen.xib */,
+				28BF6CF81ACB1900009FECE0 /* MenuView.xib */,
+				280A91A61A53075600BEB38A /* Supporting Files */,
+				28301B9D1B1A2A6F00929A42 /* Sound */,
+				0AA1A9011E91F50000A38C8D /* Bridge-Header.h */,
+			);
+			name = WaterTracker;
+			path = "Water Reminder";
+			sourceTree = "<group>";
+		};
+		280A91A61A53075600BEB38A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28AA7DCC1B4591210011D5FD /* List.plist */,
+				28460AC11ACF6AD100F8E126 /* Options.plist */,
+				28003AD41B8A254F0067749F /* WaterReminder.xcdatamodeld */,
+				28C74DCA1B49A54A00C37D90 /* GoogleMobileAds.framework */,
+				280A91A71A53075600BEB38A /* Free-Info.plist */,
+				28003ACB1B8A14DD0067749F /* Premium-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28301B9D1B1A2A6F00929A42 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				28003AB61B8A14590067749F /* sound_00.mp3 */,
+				28003AB71B8A14590067749F /* sound_01.mp3 */,
+				28003AB81B8A14590067749F /* sound_02.mp3 */,
+				28003AB91B8A14590067749F /* sound_03.mp3 */,
+				28003ABA1B8A14590067749F /* sound_04.mp3 */,
+				28003ABB1B8A14590067749F /* sound_05.mp3 */,
+				28003ABC1B8A14590067749F /* sound_06.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		280A91A21A53075600BEB38A /* WaterTracker.Free */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 280A91C51A53075600BEB38A /* Build configuration list for PBXNativeTarget "WaterTracker.Free" */;
+			buildPhases = (
+				280A919F1A53075600BEB38A /* Sources */,
+				280A91A01A53075600BEB38A /* Frameworks */,
+				280A91A11A53075600BEB38A /* Resources */,
+				2815E7E21AC3306A009655C9 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterTracker.Free;
+			productName = WaterTrackerPro;
+			productReference = 280A91A31A53075600BEB38A /* WaterTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28D2B7B01B4ADA0600CE1D93 /* WaterTracker.Premium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28D2B7D11B4ADA0600CE1D93 /* Build configuration list for PBXNativeTarget "WaterTracker.Premium" */;
+			buildPhases = (
+				28D2B7B11B4ADA0600CE1D93 /* Sources */,
+				28D2B7C01B4ADA0600CE1D93 /* Frameworks */,
+				28D2B7C31B4ADA0600CE1D93 /* Resources */,
+				28D2B7D01B4ADA0600CE1D93 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterTracker.Premium;
+			productName = WaterTrackerPro;
+			productReference = 28D2B7D41B4ADA0600CE1D93 /* WaterTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		280A919B1A53075600BEB38A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Suwao Ltd (suwao.com)";
+				TargetAttributes = {
+					280A91A21A53075600BEB38A = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = Y6E85R9YYY;
+						LastSwiftMigration = 0820;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+					28D2B7B01B4ADA0600CE1D93 = {
+						DevelopmentTeam = BP68V95MMD;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 280A919E1A53075600BEB38A /* Build configuration list for PBXProject "WaterTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 280A919A1A53075600BEB38A;
+			productRefGroup = 280A91A41A53075600BEB38A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				280A91A21A53075600BEB38A /* WaterTracker.Free */,
+				28D2B7B01B4ADA0600CE1D93 /* WaterTracker.Premium */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		280A91A11A53075600BEB38A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2802E8A51BDD5CF2004A2EF6 /* LaunchScreen.xib in Resources */,
+				2802E8A41BDD5CEC004A2EF6 /* Main.storyboard in Resources */,
+				28003AC51B8A14590067749F /* sound_04.mp3 in Resources */,
+				28003AC11B8A14590067749F /* sound_02.mp3 in Resources */,
+				28003ABF1B8A14590067749F /* sound_01.mp3 in Resources */,
+				28003AC71B8A14590067749F /* sound_05.mp3 in Resources */,
+				28003AC31B8A14590067749F /* sound_03.mp3 in Resources */,
+				28003ABD1B8A14590067749F /* sound_00.mp3 in Resources */,
+				28AA7DCD1B4591210011D5FD /* List.plist in Resources */,
+				28222CC31BDEC966003B4FD1 /* Images.xcassets in Resources */,
+				28BF6CF91ACB1900009FECE0 /* MenuView.xib in Resources */,
+				2815E7E61AC38C5D009655C9 /* VerticalBarView.xib in Resources */,
+				28003AC91B8A14590067749F /* sound_06.mp3 in Resources */,
+				28460AC21ACF6AD100F8E126 /* Options.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28D2B7C31B4ADA0600CE1D93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28D2B7C41B4ADA0600CE1D93 /* Main.storyboard in Resources */,
+				28D2B7C51B4ADA0600CE1D93 /* LaunchScreen.xib in Resources */,
+				28003AC61B8A14590067749F /* sound_04.mp3 in Resources */,
+				28003AC21B8A14590067749F /* sound_02.mp3 in Resources */,
+				28003AC01B8A14590067749F /* sound_01.mp3 in Resources */,
+				28003AC81B8A14590067749F /* sound_05.mp3 in Resources */,
+				28003AC41B8A14590067749F /* sound_03.mp3 in Resources */,
+				28003ABE1B8A14590067749F /* sound_00.mp3 in Resources */,
+				28D2B7CC1B4ADA0600CE1D93 /* List.plist in Resources */,
+				28222CC41BDEC966003B4FD1 /* Images.xcassets in Resources */,
+				28D2B7CD1B4ADA0600CE1D93 /* MenuView.xib in Resources */,
+				28D2B7CE1B4ADA0600CE1D93 /* VerticalBarView.xib in Resources */,
+				28003ACA1B8A14590067749F /* sound_06.mp3 in Resources */,
+				28D2B7CF1B4ADA0600CE1D93 /* Options.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		280A919F1A53075600BEB38A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280A91AE1A53075600BEB38A /* MainViewController.swift in Sources */,
+				280A91A91A53075600BEB38A /* AppDelegate.swift in Sources */,
+				285B357D1AC0FBF30015E868 /* Conf.swift in Sources */,
+				28BF6CFB1ACB1D42009FECE0 /* MenuView.swift in Sources */,
+				28C74DC91B49A52400C37D90 /* ADViewController.swift in Sources */,
+				2815E7E41AC3677F009655C9 /* WeekGraph.swift in Sources */,
+				285B357F1AC0FC030015E868 /* Tools.swift in Sources */,
+				2815E7E81AC486C7009655C9 /* ManagedObjects.swift in Sources */,
+				28003AD61B8A254F0067749F /* WaterReminder.xcdatamodeld in Sources */,
+				285B35811AC105600015E868 /* CircleBar.swift in Sources */,
+				28DFC84D1AD5D53F008EBB90 /* KeyboardView.swift in Sources */,
+				2890C86A1AD31E0E0043803D /* SecondTableViewController.swift in Sources */,
+				28460AC41AD17E3D00F8E126 /* FirstTableViewController.swift in Sources */,
+				28C74DC71B49A22E00C37D90 /* IAPViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28D2B7B11B4ADA0600CE1D93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28D2B7B21B4ADA0600CE1D93 /* MainViewController.swift in Sources */,
+				28003AD71B8A254F0067749F /* WaterReminder.xcdatamodeld in Sources */,
+				28D2B7B41B4ADA0600CE1D93 /* AppDelegate.swift in Sources */,
+				28D2B7B51B4ADA0600CE1D93 /* Conf.swift in Sources */,
+				28D2B7B61B4ADA0600CE1D93 /* MenuView.swift in Sources */,
+				28D2B7B81B4ADA0600CE1D93 /* WeekGraph.swift in Sources */,
+				28D2B7B91B4ADA0600CE1D93 /* Tools.swift in Sources */,
+				28D2B7BA1B4ADA0600CE1D93 /* ManagedObjects.swift in Sources */,
+				28D2B7BB1B4ADA0600CE1D93 /* CircleBar.swift in Sources */,
+				28D2B7BC1B4ADA0600CE1D93 /* KeyboardView.swift in Sources */,
+				28D2B7BD1B4ADA0600CE1D93 /* SecondTableViewController.swift in Sources */,
+				28D2B7BE1B4ADA0600CE1D93 /* FirstTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		280A91AF1A53075600BEB38A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				280A91B01A53075600BEB38A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		280A91B41A53075600BEB38A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				280A91B51A53075600BEB38A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		280A91C31A53075600BEB38A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		280A91C41A53075600BEB38A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		280A91C61A53075600BEB38A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Y6E85R9YYY;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Water Reminder/Free-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suwao.watertracker4.free;
+				PRODUCT_NAME = WaterTracker;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Water Reminder/Bridge-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		280A91C71A53075600BEB38A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Y6E85R9YYY;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Water Reminder/Free-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suwao.watertracker4.free;
+				PRODUCT_NAME = WaterTracker;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Water Reminder/Bridge-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		28D2B7D21B4ADA0600CE1D93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Water Reminder/Premium-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D PREMIUM";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suwao.watertracker4.premium;
+				PRODUCT_NAME = WaterTracker;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		28D2B7D31B4ADA0600CE1D93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Water Reminder/Premium-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D PREMIUM";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suwao.watertracker4.premium;
+				PRODUCT_NAME = WaterTracker;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		280A919E1A53075600BEB38A /* Build configuration list for PBXProject "WaterTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280A91C31A53075600BEB38A /* Debug */,
+				280A91C41A53075600BEB38A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		280A91C51A53075600BEB38A /* Build configuration list for PBXNativeTarget "WaterTracker.Free" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280A91C61A53075600BEB38A /* Debug */,
+				280A91C71A53075600BEB38A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28D2B7D11B4ADA0600CE1D93 /* Build configuration list for PBXNativeTarget "WaterTracker.Premium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28D2B7D21B4ADA0600CE1D93 /* Debug */,
+				28D2B7D31B4ADA0600CE1D93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		28003AD41B8A254F0067749F /* WaterReminder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				28003AD51B8A254F0067749F /* WaterReminder.xcdatamodel */,
+			);
+			currentVersion = 28003AD51B8A254F0067749F /* WaterReminder.xcdatamodel */;
+			path = WaterReminder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 280A919B1A53075600BEB38A /* Project object */;
+}
